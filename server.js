@@ -8,3 +8,12 @@ const db = mySQL.createConnection({
     password: "password",
     database: "employeeDB"
 });
+
+function viewEmployees();
+function viewDepartments();
+function viewRoles();
+function addDept();
+function addRole();
+function addEmployee();
+function updateEmployeeRole();
+function start();
